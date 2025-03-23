@@ -1,26 +1,21 @@
-📄 PDF Text Modifier
-A Node.js project that allows you to add custom text to an existing PDF at specific coordinates, with the ability to customize:
+# 📄✨ PDF Text Modifier
 
-✅ Multiple text blocks
+A **Node.js** project that allows you to add **custom text** to an existing **PDF** at **specific coordinates**, with the ability to customize:
 
-✅ Word spacing
+✅ **Multiple text blocks**  
+✅ **Word spacing**  
+✅ **Line spacing**  
+✅ **Font size**  
+✅ **Randomized file names** for output PDFs  
 
-✅ Line spacing
+---
+## 📜 Dependencies
 
-✅ Font size
+The project relies on the following packages:
 
-✅ Random file names for the output PDFs
+| Package    | Description                        | Installation Command         |
+|------------|------------------------------------|------------------------------|
+| `pdf-lib`  | Create, edit, and modify PDFs      | `npm install pdf-lib`        |
+| `pdf-parse`| Extract text from PDF files        | `npm install pdf-parse`      |
 
-📂 Project Structure
-pdf-text-modifier/
-├── node_modules/          # Installed dependencies
-├── package.json           # Project configuration
-├── index.js               # Main application logic
-├── test.js                # Test script for validation
-└── README.md              # Project documentation
-
-📜 Dependencies
-pdf-lib – PDF manipulation.
-
-pdf-parse – Extract text from PDFs.
-
+---
